@@ -30,7 +30,20 @@
         android:layout_margin="16dp"
         android:layout_weight="0.25"
         android:background="@drawable/borda"
-        android:orientation="vertical"></LinearLayout>
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txAcerto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/txErro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
